@@ -1,0 +1,174 @@
+/* html */
+/* ページ全体 */
+html{
+    font-family: 'Century Gothic';
+}
+html *{
+    box-sizing: border-box;
+}
+
+/* body */
+/* common */
+/* ボディ全体 */
+body{
+    background-color: #DEB887 ;
+    margin: 0;
+}
+/* ページ全体設定 */
+.all{
+    /* 左右をautoにして中央寄せ */
+    margin: 0 auto;
+    /* 最大幅を明記して目一杯の広がりを防ぐ */
+    max-width: 100%;
+}
+/* リンクの下線を消去 */
+a {
+    text-decoration: none;
+    color: #8B008B;
+    }
+/* リンク選択時動作 */
+a:hover{
+    font-weight: bold;
+    color: black;
+}
+/* header */
+/* ホーム見出し */
+h1{
+    margin-bottom: 0;
+    text-align: center;
+}
+.subtitle{
+    margin: 0;
+    text-align: center;
+}
+/* メニューバー */
+nav{
+    max-width: 100%;
+    text-align: center;
+    background-color: #666;
+}
+/* メニューリンク選択時のみの設定 */
+nav a:hover{
+    font-weight: bold;
+    color: white;
+}
+nav ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    font-size: 20px;
+    margin-right: 30px;
+    display: inline;
+}
+
+/* main */
+main{
+    /* 中央寄せ */
+    margin: 0 auto;
+    width: 700px;
+}
+/* home.html */
+/* ホームビジュアル領域 */
+.homevideo{
+    padding: 0;
+    text-align: center;
+}
+.mainvideo{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 20px;
+    border: 3px solid #8B008B;
+    border-radius: 10%;
+    background-color: #8B008B;
+}
+.select-box{
+    text-align: center;
+    padding: 0;
+}
+.select-box h3, .select-box p{
+    margin: 0;
+}
+.select-box ul{
+    padding:0;
+    list-style: none;
+}
+.select-box ul li{
+    margin-top: 20px;
+    display: inline;
+}
+.subvideo{
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+    border: 1px solid #8B008B;
+    border-radius: 10%;
+    background-color: #8B008B;
+}
+
+/* link.html */
+/* リンク領域 */
+.link-box{
+    margin-top: 80px;
+}
+
+/* profile.html */
+/* プロフィール領域 */
+.profile-box{
+    display: flex;
+    align-items: center;
+}
+.profile-img{
+    width: 340px;
+    height: 180px;
+}
+.profile-lang{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+.profile-lang ul{
+    padding: 0;
+}
+.profile-lang ul li{
+    cursor: pointer;
+    display: inline;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+}
+/* 言語選択されていないテキストを非表示 */
+.hidden{
+    display: none;
+}
+
+/* product.html */
+/* 映像アコーディオン領域 */
+dt{
+    width: 600px;
+    line-height: 35px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    height: 35px;
+    background-color: black;
+    cursor: pointer;
+    padding-left: 16px;
+}
+dd{
+    margin: 0;
+}
+.products{
+    width: 600px;
+    height: 400px;
+    background-color: black;
+}
+.andmore{
+    text-align: center;
+}
+
+/* footer */
+footer{
+    margin: 0 auto;
+    width: 700px;
+}
